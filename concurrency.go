@@ -6,9 +6,12 @@ import (
 )
 
 func main() {
+	// this code will never execute, successfully
+	// Because func main() no wait for no one untill said so explicitly
+
 	go count("sheep")
 	go count("fish")
-	
+
 }
 
 
